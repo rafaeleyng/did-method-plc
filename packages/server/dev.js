@@ -1,6 +1,6 @@
 'use strict' /* eslint-disable */
 
-const { Database, PlcServer } = require('.')
+const { Database, PlcServer } = require('./dist')
 
 const main = async () => {
   const version = process.env.PLC_VERSION

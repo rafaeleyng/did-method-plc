@@ -6,4 +6,4 @@ set -e
 corepack prepare --activate
 yarn install
 yarn --cwd packages/server install
-yarn --cwd packages/server denv
+yarn --cwd packages/server dev
